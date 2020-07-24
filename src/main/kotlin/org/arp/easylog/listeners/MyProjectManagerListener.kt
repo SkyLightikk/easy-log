@@ -1,8 +1,8 @@
-package com.github.skylightikk.easylog.listeners
+package org.arp.easylog.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.skylightikk.easylog.services.MyProjectService
+import org.arp.easylog.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

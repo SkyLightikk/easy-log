@@ -1,4 +1,4 @@
-package com.github.skylightikk.easylog
+package org.arp.easylog
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

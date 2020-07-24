@@ -1,19 +1,19 @@
 <idea-plugin>
-    <id>com.github.skylightikk.easylog</id>
-    <name>easy-log</name>
-    <vendor>skylightikk</vendor>
+    <id>org.arp.easylog</id>
+    <name>easyLog</name>
+    <vendor>arp</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.skylightikk.easylog.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.skylightikk.easylog.services.MyProjectService"/>
+        <applicationService serviceImplementation="org.arp.easylog.services.MyApplicationService"/>
+        <projectService serviceImplementation="org.arp.easylog.services.MyProjectService"/>
     </extensions>
 
     <projectListeners>
-        <listener class="com.github.skylightikk.easylog.listeners.MyProjectManagerListener"
+        <listener class="org.arp.easylog.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
 </idea-plugin>
